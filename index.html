@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Queen of the Seven Stages</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="frame">
+    <canvas id="game" width="320" height="192"></canvas>
+  </div>
+
+  <!-- Touch controls: only shown on phones / narrow screens -->
+  <div class="pad">
+    <div class="dpad">
+      <button data-key="arrowup" class="up">&uarr;</button>
+      <button data-key="arrowleft" class="left">&larr;</button>
+      <button data-key="arrowright" class="right">&rarr;</button>
+      <button data-key="arrowdown" class="down">&darr;</button>
+    </div>
+    <button data-key="action" class="act">A</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
